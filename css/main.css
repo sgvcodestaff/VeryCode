@@ -1,0 +1,39 @@
+section {
+  padding: 10px;
+}
+section.quote {
+  min-height: 30vh;
+}
+section.content {
+  min-height: 50vh;
+}
+
+section.content#top {
+  background-size: cover;
+}
+
+section.content.pink {
+  color: white;
+}
+
+p.italic {
+  font-style: italic;
+}
+
+blockquote.border-pink {
+  border-color: #e91e63;
+}
+blockquote.border-indigo {
+  border-color: #3f51b5;
+}
+.parallax-container .card-panel {
+  width: 100%;
+}
+.card-panel.focus-off {
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+.card-panel.focus-on {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
